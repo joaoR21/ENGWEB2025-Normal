@@ -2,7 +2,7 @@
 
 ### Persistência de Dados
 
--   Transformei o dataset num formato de array de objetos, cada um representando uma edição. O `_id` de cada edição (proveninente do campo original `id) é o seu identificador.
+O dataset original, que se apresentava como um objeto JSON com cada edição identificada por uma chave. A transformação inicial consistiu em converter esta estrutura num array JSON, onde cada elemento do array é um objeto que representa uma edição individual do festival. O `_id` de cada edição (proveninente do campo original `id) é o seu identificador.
 -   **Base de Dados**: em mongoDB, com o nome `eurovisao`
 -   **Coleção**: `edicoes`
 -   **Schema (`ex1/models/editions-model.js`)**:

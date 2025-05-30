@@ -2,9 +2,9 @@
 
 ### Persistência de Dados
 
--   Transformei o dataset num formato de array de objetos, cada um representando uma edição. O `_id` de cada edição (proveninente do campo original "id") é o seu identificador.
+-   Transformei o dataset num formato de array de objetos, cada um representando uma edição. O `_id` de cada edição (proveninente do campo original `id) é o seu identificador.
 -   **Base de Dados**: em mongoDB, com o nome `eurovisao`
--   **Coleção**: `edicoes`[cite: 8].
+-   **Coleção**: `edicoes`
 -   **Schema (`ex1/models/editions-model.js`)**:
     -   `_id`: String, required (ID da edição)
     -   `anoEdição`: String, required

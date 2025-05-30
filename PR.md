@@ -17,7 +17,7 @@ O dataset original, que se apresentava como um objeto JSON com cada edição ide
 
 -   **Importação**: utilizar `mongoimport` com o dataset JSON em formato array.
     ```bash
-    mongoimport --db eurovisao --collection edicoes --file <DATASET>.json --jsonArray
+    mongoimport --db eurovisao --collection edicoes --file db.json --jsonArray
     ```
 
 ---
